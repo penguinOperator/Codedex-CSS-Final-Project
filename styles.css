@@ -1,0 +1,102 @@
+#YoutubeBar {
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 56px;
+    font-family: sans-serif;
+    position: fixed;
+    z-index: 999;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+#aa {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-left: 16px;
+    width: 169px;
+    height: 56px;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 18px;
+}
+
+.hamburger span {
+    height: 2px;
+    width: 100%;
+    background-color: black;
+}
+
+#SearchBar {
+    padding-left: 15px;
+    margin: auto;
+    width: 728px;
+    height: 40px;
+    display: flex;
+}
+
+#SearchSearch {
+    width: 540px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: #CCCCCC solid 2px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: none;
+    display: flex;
+}
+
+#ButtonSearch {
+    width: 64px;
+    height: 40px;
+    background-color: #F8F8F8;
+    border: #D3D3D3 solid 2px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    /* Center the icon */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#shiftMe {
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+}
+
+#Signup {
+    width: 100px;
+    height: 36px;
+    margin-left: auto;
+    border: #E6E6E6 solid 2px;
+    display: flex;
+    justify-content: center;
+    margin-right: 16px;
+    border-radius: 18px;
+    color: #065FD4;
+    font-size: 20px;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 100%;
+}
+
+#Block {
+    background-color: blue;
+    width: 100px;
+    height: 36px;
+    position: relative;
+    left: 300px
+
+}
