@@ -1,3 +1,7 @@
+body {
+	background-color: #f9f9f9
+}
+
 #YoutubeBar {
     background-color: white;
     top: 0;
@@ -52,6 +56,7 @@
     border-bottom-left-radius: 20px;
     border-right: none;
     display: flex;
+    padding-left: 16px;
 }
 
 #ButtonSearch {
@@ -69,6 +74,7 @@
 }
 
 #shiftMe {
+	line-height: 1.5;
     margin-left: 16px;
     display: flex;
     align-items: center;
@@ -86,10 +92,13 @@
     color: #065FD4;
     font-size: 20px;
     align-items: center;
+    text-align: center;
 }
 
 h1 {
     margin-top: 100%;
+    font-size: 1.25rem;
+    line-height: 1.5;
 }
 
 #Block {
@@ -97,6 +106,7 @@ h1 {
     width: 100px;
     height: 36px;
     position: relative;
-    left: 300px
+    left: 300px;
+    margin-top: 20px;
 
 }
