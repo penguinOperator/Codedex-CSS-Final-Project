@@ -1,46 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Site</title>
-    <link href="styles.css" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bnard's Port Follow</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <body>
+
 <header>
-    <div id="YoutubeBar">
-        <section id="aa">
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/800px-YouTube_Logo_2017.svg.png" alt="Youtube Logo" width="90" height="20">
-        </section>
-        <section id="SearchBar">
-            <div id="SearchSearch">
-                <span id="shiftMe"><textarea id="sears" cols="63" rows="1" placeholder="Search.."></textarea></span>
-            </div>
-
-            <label for="sears">
-                <div id="ButtonSearch">
-                    <span class="material-icons">search</span>
-                </div>
-            </label>
-        </section>
-
-        <div id="Signup">Sign In</div>
-    </div>
+  <div class="container">
+    <nav>
+      <div class="logo">Bnard</div>
+      <p class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+      </p>
+    </nav>
+  </div>
 </header>
-<main>
-    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, eveniet, perferendis. A amet eveniet facere labore perspiciatis reprehenderit, soluta sunt unde voluptates? Asperiores corporis labore natus numquam, quo ratione veritatis?</h1>
-    <div id="Block"></div>
-    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, eveniet, perferendis. A amet eveniet facere labore perspiciatis reprehenderit, soluta sunt unde voluptates? Asperiores corporis labore natus numquam, quo ratione veritatis?</h1>
-    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, eveniet, perferendis. A amet eveniet facere labore perspiciatis reprehenderit, soluta sunt unde voluptates? Asperiores corporis labore natus numquam, quo ratione veritatis?</h1>
-    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, eveniet, perferendis. A amet eveniet facere labore perspiciatis reprehenderit, soluta sunt unde voluptates? Asperiores corporis labore natus numquam, quo ratione veritatis?</h1>
-    </main>
+
+<section id="home" class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <h1><span class="highlight">Bnard Hackwell</span></h1>
+      <p>Best programmer (subjective)</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cumque dolor doloremque nemo? Architecto dolorem nemo provident quibusdam reiciendis sapiente sequi? Consectetur eos natus nostrum quis ratione repellendus tempora voluptas?</p>
+      <a href="#about" class="btn">About</a>
+      <a href="#projects" class="btn">Projects</a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="container">
+    <h2>Who is bnard</h2>
+    <div class="about-content">
+      <div class="profile-image">
+        <div class="image-holder">
+          <img src="data:image/jpeg;base64,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" alt="Bnard Hackwell">
+        </div>
+      </div>
+      <div class="bio">
+        <p>Bnard is a pug who can code in: C, C++, C#, Haskell, Prolog, Assembly x86, Lisp, Rust, Malbolge, APL, Coq/Idris, Forth, Perl, Erland, OCaml, Python, Go, TS, JS, ALL</p>
+        <p>My full name is Bnard Hackwell.</p>
+        <p id="Lua">I would love to learn Lua and Love2d, but Codedex doesn't teach it😔</p>
+        <div class="skills">
+          <span class="skill">C</span>
+          <span class="skill">C++</span>
+          <span class="skill">C#</span>
+          <span class="skill">Haskell</span>
+          <span class="skill">Prolog</span>
+          <span class="skill">Assembly</span>
+          <span class="skill">Lisp</span>
+          <span class="skill">Rust</span>
+          <span class="skill">Malbolge</span>
+          <span class="skill">APL</span>
+          <span class="skill">Coq/Idris</span>
+          <span class="skill">Forth</span>
+          <span class="skill">Perl</span>
+          <span class="skill">Erland</span>
+          <span class="skill">OCaml</span>
+          <span class="skill">Python</span>
+          <span class="skill">Go</span>
+          <span class="skill">TS</span>
+          <span class="skill">JS</span>
+          <span class="skill">ALL!</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="projects">
+  <div class="container">
+    <h2>Bnard's amazing 2 public projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <div class="project-image">
+          <img src="https://i1.sndcdn.com/avatars-000027834832-bfzi0x-t240x240.jpg" alt="A and B">
+        </div>
+        <h3>A lang & B lang</h3>
+        <p>C, D, E, F.. wait, we skipped A and B</p>
+      </div>
+      <div class="project-card">
+        <div class="project-image">
+          <img src="https://thumbs.dreamstime.com/b/top-secret-vector-stamp-ink-42538693.jpg" alt="secret stamp">
+        </div>
+        <h3>Bnard's SECRET DOT FILES</h3>
+        <p>🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <footer>
+    <p>Codedex, please make lua and love2d course🙏🙏</p>
 </footer>
 </body>
 </html>
